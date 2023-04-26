@@ -1,0 +1,57 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+/* Utilities */
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Header Area */
+@media only screen and (max-width: 1500px) {
+  .navbar-nav .dropdown-menu {
+    left: -78px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -85px;
+  }
+}
+
+/* Banner Area */
+.carousel-item {
+  height: 500px;
+  padding-top: 50px;
+  padding: 0 20px;
+}
+
+.carousel-item.item-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/banner-images/banner-image-1.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.carousel-item.item-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/banner-images/banner-image-2.jpg') no-repeat center;
+  background-size: cover;
+}
+
+/* Category Area */
+.category-image {
+  width: 70px;
+  transition: all 0.3s ease;
+}
+
+.category:hover .category-image {
+  background-color: #ffffff !important;
+}
+
+/* Container Padding on Mobile Device */
+@media only screen and (max-width: 575px) {
+  .container {
+    padding: 0 20px !important;
+  }
+}
